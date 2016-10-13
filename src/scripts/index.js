@@ -53,6 +53,8 @@ $('#footer div').tap(function() {
 
     $('#mainContent').show();
     $('.swiper-container').hide();
+    $('#footer div').removeClass('hasColor');
+    $(this).addClass('hasColor');
 
     // 需要进行post请求，然后请求/api/skill,并且将数据列表显示在页面上
     if (job == 'like') {
