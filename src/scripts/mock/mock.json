@@ -1,0 +1,11 @@
+module.exports = {
+	rules:[
+		{
+			"pattern":/qureyList/,
+			"respondwith":"list.json"
+		},{
+			"pattern":/qureyData/,
+			"respondwith":"data.json"
+		}
+	]
+}
